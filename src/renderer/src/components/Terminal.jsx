@@ -33,8 +33,9 @@ const TerminalComponent = () => {
     // Function to send input to the terminal
     terminal.current.onData((input) => {
       console.log(input)
-      if(input != ""){
-        setTerm(Term+input)
+      if(/^[a-z0-9]+$/i.test(input)){
+        setTerm(Term+input);
+        console.log(Term);
       }else{
         console.log(Term);
         window.api.sendTerminalInput(Term);

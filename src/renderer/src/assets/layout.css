@@ -1,6 +1,8 @@
 .navbar-logo {
-    height: 80%;
-    vertical-align: middle;
+    height: 90%;
+    width: 3.7%;
+    margin: 0 0 0 0.5vw;
+    vertical-align: top;
 }
 
 .navbar {
@@ -8,7 +10,7 @@
     align-items: center;
     justify-content: left;
     height: 7vh;
-    padding: 0 3vh;
+    padding: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 

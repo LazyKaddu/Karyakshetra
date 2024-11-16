@@ -1,10 +1,12 @@
 import React from 'react';
 import '../assets/layout.css';
+import logo from "../assets/logo.png"
+
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <img src="..//assets//logo.png" alt="Logo" className="navbar-logo" />
+            <img src={logo} alt="Logo" className="navbar-logo" />
             <ul className="navbar-nav">
                 {renderDropdown("File", ["New", "Open", "Save"])}
                 {renderDropdown("Edit", ["Undo", "Redo", "Cut", "Copy", "Paste"])}

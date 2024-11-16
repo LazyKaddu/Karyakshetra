@@ -63,7 +63,7 @@ const FileExplorer = ({setcontent}) => {
   }
 
   return (
-    <div className="w-[20vw] h-[80vh] p-2 flex flex-col gap-2 border-b-[1px] border-[#6b98ab]">
+    <div className="w-[20vw] h-[80vh] p-2 flex flex-col gap-2 border-b-[1px] border-[#6b98ab] resize-x">
       <h3 className="font-mono text-xl">Karyakshetra Files</h3>
       <div className='flex gap-4 relative'>
         <button onClick={undoDir} className='cursor-pointer'><FontAwesomeIcon icon={faArrowLeft} /></button>

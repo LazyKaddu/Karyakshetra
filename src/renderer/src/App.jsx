@@ -17,8 +17,8 @@ const App = () => {
     <div className='flex flex-col'>
       <Navbar/>
       <div className='flex'>
-        <FileExplorer setcontent={setcontent} />
-        <EditorArea content={content} />
+        <FileExplorer setcontent={setcontent}  />
+        <EditorArea content={content}/>
       </div>
       <TerminalComponent/>
     </div>
